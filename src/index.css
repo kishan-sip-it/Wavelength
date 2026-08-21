@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+body { font-family: "Poppins", system-ui, sans-serif; background: #050505; }
+
+/* Style the native date picker to sit well on a dark theme */
+input[type="date"] {
+  color-scheme: dark;
+}
